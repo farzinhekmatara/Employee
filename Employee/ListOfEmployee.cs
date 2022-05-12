@@ -33,7 +33,7 @@ namespace Employee
         {
             foreach (var EmployeeInfo in employeeList)
             {
-                Console.WriteLine(EmployeeInfo.GetName()+ " " + EmployeeInfo.GetSalary());
+                Console.WriteLine("Namn: "+EmployeeInfo.GetName()+ " Lön: " + EmployeeInfo.GetSalary());
             }
 
         }
